@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Probs1To16 {
+public class Probs01To16 {
     public static void main(String[] args) {
 
 //        Area of Circle problem and Circumference
