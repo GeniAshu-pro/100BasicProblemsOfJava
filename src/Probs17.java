@@ -18,7 +18,7 @@ public class Probs17 {
             }
         }
 
-
+        sc.close();
     }
 
     static boolean isAlphabet(char c) {
