@@ -11,7 +11,7 @@ public class Probs23and24 {
         }else {
             System.out.println(i);
         }
-        // for odd number
+        // For odd number
 //        for (int i =1 ; i<=number;i++){
 //            if (i%3==0){
 //                System.out.println("Even");
