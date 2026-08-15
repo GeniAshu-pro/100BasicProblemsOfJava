@@ -6,5 +6,6 @@ public class Probs75 {
         String str = sc.nextLine();
         String newString  =str.replaceAll(" ","");
         System.out.println(newString);
+        sc.close();
     }
 }
