@@ -1,0 +1,2 @@
+public class Probs74 {
+}
