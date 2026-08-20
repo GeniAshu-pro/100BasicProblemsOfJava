@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 
@@ -5,22 +6,21 @@ import java.util.Scanner;
 public class Probs78 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter String here");
         String str = sc.nextLine();
+        System.out.println("Enter here the Old Character");
+        char oldChar = sc.next().charAt(0);
+        System.out.println("Enter here the New Character");
+        char newChar = sc.next().charAt(0);
         char [ ] arr = str.toCharArray();
-        char ch =0;
-        int n = str.length();
-        System.out.println("The First ");
-        if((str != null && !str.isEmpty())){
-            for(int i = 0 ; i<n ; i++){
-                for(int j = 0 ; j<n ;j++){
-                    if(arr[i]!=arr[j+1]){
-                        ch = arr[i];
-                        return;
-                    }
-                }
+
+        for (int i = 0; i <str.length(); i++) {
+            if (arr[i] == oldChar) {
+                arr[i] = newChar;
             }
         }
-        System.out.println("Here is ur First Non-repeating Character: "+ch);
+        String newString = new String(arr);
+        System.out.println("here is ur new string with replace character: " + newString);
         sc.close();
     }
 }
