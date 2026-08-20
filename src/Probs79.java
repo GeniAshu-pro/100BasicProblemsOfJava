@@ -21,7 +21,7 @@ public class Probs79 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter ur String here !!!");
+        System.out.println("Enter your String here !!!");
         String str = sc.nextLine();
         System.out.println("Here is Ur toggle String : "+toggleTheCase(str));
         sc.close();
